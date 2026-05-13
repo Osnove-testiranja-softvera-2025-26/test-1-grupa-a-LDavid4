@@ -86,6 +86,7 @@ namespace OTS2026_GrupaA.Test
             game.MovePlayer(Move.Down);
             game.CollectItems();
             Assert.That(game.Player.AmountOfGold, Is.EqualTo(1));
+
         }
 
         [Test]
